@@ -9,8 +9,11 @@ Let n be the size of internal buffer
 Number of segments can reach n but rarely and optimize further
 
 Push: Amortized O(1)
+
 Pop: Amortized O(1)
+
 RequestNewStack : O(n)
+
 ReturnStackBack: O(n log n)
 
 ## Future Optimization 
